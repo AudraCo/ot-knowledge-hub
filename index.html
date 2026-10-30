@@ -537,3 +537,37 @@ Therapist: "Generate Cole's OT assessment report."
 
 Agent: Generates the report using the established AACPS OT reporting format and applicable instructions. 
 
+# AACPS OT Knowledge Hub — Report Generation Standards
+
+This staff-developed knowledge resource supports consistent school-based occupational therapy assessment report drafting. It does not supersede AACPS procedures, approved forms or evaluating therapist judgment.
+
+## Mandatory 12-section structure
+1. **Purpose of Assessment**
+2. **Socio-Cultural or Linguistic Considerations** 3. **Validity Statement** 4. **Background Information** 5. **Assessment Procedures** 6. **Test Scores** 7. **Assessment Results** 8. **Factors Influencing Assessment Results** 9. **Strengths and Needs as Related to Classroom Performance** 10. **Data Analysis** 11. **Summary of Findings** 12. **Instructional Implications**
+
+## AUTO-POPULATE — AACPS APPROVED LANGUAGE The agent must retrieve the **exact approved text** stored under each corresponding section, especially **Purpose of Assessment** and **Validity Statement**. Insert an approved statement automatically only when the evaluation context supports it. Do not replace approved wording with generic text or assert validity without supporting evidence.
+
+**Repository maintainer:** Place the full approved wording directly under each section heading, clearly labeled `AUTO-POPULATE — AACPS APPROVED LANGUAGE`. Do not treat this instruction as the approved language itself. Where several approved options exist, label each option and the circumstances for its use.
+
+## THERAPIST SELECTION REQUIRED
+Where an approved option requires knowledge of the individual student, display the exact available options and flag `[THERAPIST SELECTION
+REQUIRED: specify choice]`. Never guess language background, evaluation purpose, validity or administrative facts.
+
+## THERAPIST INPUT REQUIRED
+Therapists generally provide test scores, assessment results, clinical/classroom observations, teacher/caregiver input and other individualized findings. Missing information should be flagged within the relevant report section: `[THERAPIST INPUT REQUIRED: specify item]`. Do not interrupt the drafting process with routine preliminary questions.
+
+## Automatic integration — no duplicate entry A finding provided once must be reused appropriately throughout the report. Organize source findings under Assessment Results and synthesize their educational implications into Factors Influencing Assessment Results, Strengths and Needs, Data Analysis, Summary of Findings and Instructional Implications. Avoid duplicative paragraphs, unsupported conclusions and fabricated findings.
+
+## Formatting and completion
+Maintain the exact 12 headings and order. Follow the approved handbook/template for bold headings, spacing, paragraphs, bullet characters, tables and AACPS Functional Checklist domains. Use mainly narrative Strengths and Needs, concise Data Analysis, focused comprehensive Summary of Findings, and bulleted Instructional Implications. Generate all 12 sections when requested; visibly flag unresolved items instead of omitting sections. Preserve numerical scores and student names exactly. Only include procedures actually completed.
+
+## Retrieval and source verification
+A public GitHub index alone does not guarantee retrieval by Microsoft Copilot. Connect the approved knowledge source through supported agent settings and test retrieval. If approved wording is inaccessible, flag `[APPROVED LANGUAGE NOT RETRIEVED — VERIFY KNOWLEDGE SOURCE]`; never invent it. Do not publish identifiable student records, restricted district materials or copyrighted assessment content without authorization.
+
+## Required AI Documentation Disclosure Statement Include this paragraph verbatim as the final paragraph after findings and before signatures unless the evaluating therapist specifically directs otherwise:
+
+This report was developed with the assistance of AI-supported documentation tools to aid in the organization, documentation, and drafting of report content. All assessment procedures, clinical observations, analysis, interpretation of results and findings, professional conclusions, and recommendations reflect the independent clinical judgment of a licensed occupational therapist. This evaluation was completed, reviewed, and approved by the evaluating occupational therapist identified in this report.
+
+## Professional responsibility
+The evaluating OT verifies the accuracy, interpretation, recommendations and final report. The agent must not independently decide eligibility or service levels.
+
