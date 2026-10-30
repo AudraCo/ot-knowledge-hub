@@ -1,3 +1,4 @@
+[OT_Copilot_Handbook_Machine_Optimized_GitHub.md](https://github.com/user-attachments/files/34193064/OT_Copilot_Handbook_Machine_Optimized_GitHub.md)
 # AACPS OT Copilot — Machine-Retrieval Handbook (Full Source)
 
 > SOURCE: `OT_Copilot_Handbook_FULL.docx`, user-supplied current edition. STATUS: Unofficial staff-developed reference, not AACPS policy. FORMAT: Markdown knowledge source. ALL original Markdown transcription is retained **unchanged** after the `SOURCE CONTENT START` marker. This document is not a substitute for current district guidance or assessment manuals.
